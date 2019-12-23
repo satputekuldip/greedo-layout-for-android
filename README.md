@@ -6,12 +6,15 @@ A drop-in custom layout manager for Android RecyclerViews to layout a grid of ph
 ## Setup
 Download the latest release via Gradle:
 ``` groovy
-repositories {
-	maven { url 'https://github.com/500px/greedo-layout-for-android/raw/master/releases/' }
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
 }
 
 dependencies {
-	compile 'com.fivehundredpx:greedo-layout:1.1.0'
+	        implementation 'com.github.satputekuldip:greedo-layout-for-android:1.4.0'
 }
 ```
 
