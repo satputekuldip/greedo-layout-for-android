@@ -2,11 +2,10 @@ package com.fivehundredpx.greedo_layout_sample;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.util.DisplayMetrics;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ToggleButton;
 
